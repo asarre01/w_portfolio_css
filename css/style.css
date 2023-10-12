@@ -1,0 +1,265 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    color: #ffffff;
+    background:#0C0C0D ;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+}
+
+header *{
+    display: inline;
+}
+
+header h1{
+    color: #D9B8C4;
+}
+
+.menu{   
+    float : right;
+}
+
+.menu li a{
+    color: #D9B8C4;
+    font-size: 1.25em; 
+    text-decoration: none;
+    margin: 0 10px;  
+    padding: 5px 10px;
+}
+
+.menu li a:hover{
+    background-color: #D9B8C4;
+    color: #0C0C0D;
+    padding: 5px 15px;
+    transition: all 0.5s ease;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#home{
+    background: url('../res/black-women-4957031_1920-removebg-preview.png') no-repeat bottom center ;
+    background-size: contain;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.intro {
+    float: left;
+    margin-left: 10vw;
+}
+
+.intro h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #D9B8C4;
+    padding: 0;
+    margin: 0;
+}
+
+.desc{
+    float: right;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 500px;
+    margin-right: 75px;
+    margin-top: 25px;
+}
+
+#about{
+    background: url('../res/black-women-4957032_1920-removebg-preview.png') no-repeat bottom right fixed;
+    background-size: contain;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#about *{
+    width: 50vw;
+    text-align: justify;
+    font-size: 1.2em;
+    margin-left: 10vw;
+}
+
+#about ul {
+    list-style: none;
+}
+
+#work{
+    padding-top: 3%;
+}
+
+#work p{
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+}
+
+#work table {
+    margin: 0 auto;
+    background-color: #26101C;
+    border-spacing: 10px;
+}
+
+#work table td {
+    width: 400px;
+    height: 350px;
+    border: 5px solid #fff ;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#work table td a{
+    color: #D9B8C4;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+#work table td a:hover{
+   font-size: 1.3em;
+}
+
+#work table td img{
+    margin-left: 20px;
+}
+
+#resume {
+    padding-top:  10%;
+    padding-left: 5%;
+}
+
+#resume div {
+    background-color: #fff;
+    width: 40vw;
+    height: 25vw;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    color: #26101C;
+}
+
+#resume iframe{
+    margin: 75px;
+}
+
+
+
+#resume div p {
+   margin-top: 200px;
+   font-size: 1.2em;
+   text-align: center;
+   padding: 20px;
+}
+
+#resume div p a button{
+    margin-top: 25px;
+    padding: 20px 25px;
+    background-color: #D9B8C4;
+    border: 2px solid #D9B8C4;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: all 0.5 ease-in-out;
+}
+
+#resume div p a button:hover{
+    background-color: #D9B8C4;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#gomycode{
+    color: #26101C;
+    text-decoration: none;
+}
+
+#contact{
+    padding-top: 15%;
+    background: url('../res/smiling-4654734_1280-removebg-preview.png') no-repeat bottom center ;
+    background-size: contain;
+}
+
+#contact form{
+    width: 500px;
+    height: max-content;
+    background-color: #26101C;
+    padding: 20px 25px;
+    margin-left: 35vh;
+    border-radius: 10px;
+}
+
+#contact form *{
+    background-color: transparent;
+}
+
+#contact form h2{
+    font-size: 2em;
+    margin: 0;
+}
+
+#contact form h3{
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+#contact form input{
+    width: 100%;
+    border: 2px #D9B8C4 solid;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px 2px;
+    font-size: 1em;
+    color: #fff;
+}
+
+.box-input{
+    margin: 15px 0  ;
+}
+#contact form textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border: 2px #D9B8C4 solid;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px 2px;
+    font-size: 1em;
+    color: #fff;
+}
+
+#contact form button{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    padding: 10px 15px;
+    background-color: #D9B8C4;
+    border: 2px solid #D9B8C4;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: all 0.5 ease-in-out;
+}
+
+#contact form  button:hover{
+    background-color: #D9B8C4;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

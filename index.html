@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aïcha Diallo</title>
+    <!-- Lien vers le fichier css pour styliser la page -->
+    <link rel = "stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+   
+    <!-- La barre de Navigation -->
+    <header>
+        <h1>Portfolio.</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Accueil de notre portfolio -->
+    <section id="home">
+        <div class="intro">
+            <h3>I'm</h3>
+            <h1>Aïcha Diallo</h1>
+            <h2>Full-Stack Javascript Developer</h2>
+        </div>
+        <div class="desc">
+            <p>Aïcha Diallo is a Full-Stack JavaScript Developer trained at GOMYCODE Dakar, 
+                combining technical expertise and creativity to craft exceptional web experiences.
+                As a freelancer, I am passionate about problem-solving and bringing innovative projects to life.
+            </p>
+        </div>
+    </section>
+
+    <!-- A Propos de Aïcha Diallo -->
+    <section id="about">
+        <!-- <h3><a name="about">About Me</a></h3> -->
+        <p>
+            I'm Aïcha Diallo, a 21-year-old Full-Stack JavaScript Developer from Dakar, Senegal, born into a modest, Muslim family. My journey has been a testament to self-discovery and determination, as I forged my path and honed essential personal skills while pursuing my passion for web development. Growing up in a tight-knit community instilled in me the values of:
+        </p>
+        <ul>
+            <li>Teamwork</li>
+            <li>Self-learner</li>
+            <li>Determination</li>
+            <li>Courage</li>
+            <li>Perseverance</li>
+            <li>Adaptability</li>
+            <li>Strong work ethic</li>
+            <li>Appreciation for diverse perspectives</li>
+        </ul>
+        <p>
+            My background has endowed me with a unique set of strengths, including adaptability, a strong work ethic, and a deep appreciation for diverse perspectives. I approach every project with a collaborative mindset, combining my technical expertise with these attributes to consistently deliver exceptional results.
+        </p>
+        <!-- <img src="./res/black-women-4957032_1920.jpg" alt="Une photo de Aïcha Diallo" width="300"> -->
+    </section>
+
+    <!-- Les Projets et l'expérience professionel de Aïcha Diallo -->
+    <section id="work">
+        <p>In my professional journey, I have had the privilege of contributing my expertise to a multitude of projects, encompassing a wide range of scopes and industries. These experiences have enriched my skill set and deepened my understanding of diverse challenges.</p>
+        <table>
+            <tr>
+                <th colspan="3">Here are a few of my projects</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./res/FACEBOOK.PNG" alt="Projet facebook" width="350">
+                    <a href="https://www.facebook.com" target="_blank"><h3>A social networking site called Facebook</h3></a>
+                </td>
+                <td>
+                    <img src="./res/gomycode.png" alt="Projet gomycode" width="350">
+                    <a href="https://www.gomycode.com" target="_blank"><h3>A GOMYCODE e-learning platform</h3></a>
+                </td>
+                <td>
+                    <img src="./res/jumia.png" alt="Projet Jumia" width="350">
+                    <a href="https://www.jumia.sn" target="_blank"><h3>An e-commerce site named Jumia</h3></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./res/potfolio.png" alt="Projet Portfolio" width="350">
+                    <a href="#home"><h3>Design of several portfolios</h3></a>
+                </td>
+                <td>
+                    <img src="./res/zty.pe.png" alt="Projet ztype" width="350">
+                    <a href="https://zty.pe/" target="_blank"><h3>Typing game in JavaScript</h3></a>
+                </td>
+                <td>
+                    <img src="./res/deepl.png" alt="Projet deepl" width="350">
+                    <a href="https://www.deepl.com" target="_blank"><h3>A text translator website</h3></a>
+                </td>
+            </tr>
+        </table>
+        
+
+    </section>
+
+    <!-- Mon curriculum vitae de Aïcha Diallo -->
+    <section id="resume">
+        <!-- <h3><a name="resume">Resume</a></h3> -->
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/goQVDUIpym8?si=2QrDQRh0StTYO0q1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+            <p>
+                Aïcha Diallo completed a comprehensive 5-month Full-Stack JavaScript Developer training program at <a href="https://gomycode.com/sn/" id="gomycode"><b>GOMYCODE</b></a>, which equipped her with a robust skill set and culminated in the attainment of a certification. To learn more about her qualifications and experience, you can download her CV by clicking on the following button.
+                <br><a href="./res/cv.pdf" download><button>Download CV</button></a>
+            </p>
+        </div>
+    </section>   
+    
+    
+    <!-- contacter moi-->
+    <section id="contact">
+        <form>
+            <h2>Contact me!</h2>
+            <h3>Get in touch for more information or to discuss a project.</h3>
+            
+            <div class="box-input">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+
+            <div class="box-input">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="box-input">
+                <label for="message">Message : </label>
+                <textarea id="message" required></textarea>
+            </div>
+            
+            <button type="submit"> Send</button>
+        </form>
+    </section>
+
+
+    <!-- Pied de page -->
+    <footer>
+        <!-- Les réseau sociaux de Aïcha Diallo-->
+        <!-- <div>
+            <a href=""><img src="./res/facebook-i.png" alt=" logo facebook" width="25"></a>&nbsp;
+            <a href=""><img src="./res/insta.png" alt=" logo insta" width="25"></a>&nbsp;
+            <a href=""><img src="./res/x.png" alt=" logo x twitter" width="25"></a>&nbsp;
+            <a href=""><img src="./res/githubpng.png" alt=" logo github" width="25"></a>&nbsp;
+        </div>
+        <p>&copy; 2023 Aïcha Diallo - All rights reserved.</p>
+    </footer>     -->
+</body>
+</html>
