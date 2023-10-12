@@ -60,6 +60,8 @@ section {
 .intro {
     float: left;
     margin-left: 10vw;
+    border-bottom: 10px solid #D9B8C4;
+    padding: 5px 10px;
 }
 
 .intro h1{
@@ -71,6 +73,8 @@ section {
 }
 
 .desc{
+    border-top: 10px solid #D9B8C4;
+    padding: 5px 10px;
     float: right;
     text-align: justify;
     font-size: 1.2em;
@@ -95,6 +99,9 @@ section {
 
 #about ul {
     list-style: none;
+    border-top: 5px solid #D9B8C4;
+    border-bottom: 5px solid #D9B8C4;
+    padding: 5px 10px;
 }
 
 #work{
@@ -262,4 +269,28 @@ section {
 #contact form  button:hover{
     background-color: #D9B8C4;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+footer{
+    height: 75px;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #D9B8C4;
+    color: #26101C;
+}
+
+footer div:nth-child(2){
+    margin-top: 10px;
+}
+
+footer i {
+    font-size: 1.5em;
+    color: #26101C;
+    margin: 0 10px;
+    transition: all 0.5s
+}
+
+footer i:hover {
+    font-size: 2em;
 }
